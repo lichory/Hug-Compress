@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184E2FF91DB895BC008C1837 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E2FF81DB895BC008C1837 /* main.m */; };
+		184E2FFC1DB895BC008C1837 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E2FFB1DB895BC008C1837 /* AppDelegate.m */; };
+		184E2FFF1DB895BC008C1837 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E2FFE1DB895BC008C1837 /* ViewController.m */; };
+		184E30021DB895BC008C1837 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184E30001DB895BC008C1837 /* Main.storyboard */; };
+		184E30041DB895BC008C1837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184E30031DB895BC008C1837 /* Assets.xcassets */; };
+		184E30071DB895BC008C1837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184E30051DB895BC008C1837 /* LaunchScreen.storyboard */; };
+		184E30121DB895BC008C1837 /* Hug_CompressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E30111DB895BC008C1837 /* Hug_CompressTests.m */; };
+		184E301D1DB895BC008C1837 /* Hug_CompressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E301C1DB895BC008C1837 /* Hug_CompressUITests.m */; };
+		33F72266B9EDC1886AD6BE1A /* libPods-Hug和Compress.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 195D5748616897D49B552136 /* libPods-Hug和Compress.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		184E300E1DB895BC008C1837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184E2FEC1DB895BB008C1837 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184E2FF31DB895BC008C1837;
+			remoteInfo = "Hug和Compress";
+		};
+		184E30191DB895BC008C1837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184E2FEC1DB895BB008C1837 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184E2FF31DB895BC008C1837;
+			remoteInfo = "Hug和Compress";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		184E2FF41DB895BC008C1837 /* Hug和Compress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hug和Compress.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		184E2FF81DB895BC008C1837 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		184E2FFA1DB895BC008C1837 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		184E2FFB1DB895BC008C1837 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		184E2FFD1DB895BC008C1837 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		184E2FFE1DB895BC008C1837 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		184E30011DB895BC008C1837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		184E30031DB895BC008C1837 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		184E30061DB895BC008C1837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		184E30081DB895BC008C1837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184E300D1DB895BC008C1837 /* Hug和CompressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hug和CompressTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		184E30111DB895BC008C1837 /* Hug_CompressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hug_CompressTests.m; sourceTree = "<group>"; };
+		184E30131DB895BC008C1837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184E30181DB895BC008C1837 /* Hug和CompressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hug和CompressUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		184E301C1DB895BC008C1837 /* Hug_CompressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hug_CompressUITests.m; sourceTree = "<group>"; };
+		184E301E1DB895BC008C1837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		195D5748616897D49B552136 /* libPods-Hug和Compress.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Hug和Compress.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4998606FC417E3D967050FD4 /* Pods-Hug和Compress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hug和Compress.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hug和Compress/Pods-Hug和Compress.debug.xcconfig"; sourceTree = "<group>"; };
+		AE2D714827B34C82357257E4 /* Pods-Hug和Compress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hug和Compress.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hug和Compress/Pods-Hug和Compress.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184E2FF11DB895BC008C1837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F72266B9EDC1886AD6BE1A /* libPods-Hug和Compress.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184E300A1DB895BC008C1837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184E30151DB895BC008C1837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184E2FEB1DB895BB008C1837 = {
+			isa = PBXGroup;
+			children = (
+				184E2FF61DB895BC008C1837 /* Hug和Compress */,
+				184E30101DB895BC008C1837 /* Hug和CompressTests */,
+				184E301B1DB895BC008C1837 /* Hug和CompressUITests */,
+				184E2FF51DB895BC008C1837 /* Products */,
+				3A86D1DA674C7F5D2B630961 /* Pods */,
+				D29774FA110D98C2BF415060 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		184E2FF51DB895BC008C1837 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184E2FF41DB895BC008C1837 /* Hug和Compress.app */,
+				184E300D1DB895BC008C1837 /* Hug和CompressTests.xctest */,
+				184E30181DB895BC008C1837 /* Hug和CompressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184E2FF61DB895BC008C1837 /* Hug和Compress */ = {
+			isa = PBXGroup;
+			children = (
+				184E2FFA1DB895BC008C1837 /* AppDelegate.h */,
+				184E2FFB1DB895BC008C1837 /* AppDelegate.m */,
+				184E2FFD1DB895BC008C1837 /* ViewController.h */,
+				184E2FFE1DB895BC008C1837 /* ViewController.m */,
+				184E30001DB895BC008C1837 /* Main.storyboard */,
+				184E30031DB895BC008C1837 /* Assets.xcassets */,
+				184E30051DB895BC008C1837 /* LaunchScreen.storyboard */,
+				184E30081DB895BC008C1837 /* Info.plist */,
+				184E2FF71DB895BC008C1837 /* Supporting Files */,
+			);
+			path = "Hug和Compress";
+			sourceTree = "<group>";
+		};
+		184E2FF71DB895BC008C1837 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				184E2FF81DB895BC008C1837 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		184E30101DB895BC008C1837 /* Hug和CompressTests */ = {
+			isa = PBXGroup;
+			children = (
+				184E30111DB895BC008C1837 /* Hug_CompressTests.m */,
+				184E30131DB895BC008C1837 /* Info.plist */,
+			);
+			path = "Hug和CompressTests";
+			sourceTree = "<group>";
+		};
+		184E301B1DB895BC008C1837 /* Hug和CompressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				184E301C1DB895BC008C1837 /* Hug_CompressUITests.m */,
+				184E301E1DB895BC008C1837 /* Info.plist */,
+			);
+			path = "Hug和CompressUITests";
+			sourceTree = "<group>";
+		};
+		3A86D1DA674C7F5D2B630961 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4998606FC417E3D967050FD4 /* Pods-Hug和Compress.debug.xcconfig */,
+				AE2D714827B34C82357257E4 /* Pods-Hug和Compress.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D29774FA110D98C2BF415060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				195D5748616897D49B552136 /* libPods-Hug和Compress.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184E2FF31DB895BC008C1837 /* Hug和Compress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184E30211DB895BC008C1837 /* Build configuration list for PBXNativeTarget "Hug和Compress" */;
+			buildPhases = (
+				1FB00221847DA874416435AF /* [CP] Check Pods Manifest.lock */,
+				184E2FF01DB895BC008C1837 /* Sources */,
+				184E2FF11DB895BC008C1837 /* Frameworks */,
+				184E2FF21DB895BC008C1837 /* Resources */,
+				7F7BB54D2A4E902F60A2C8A3 /* [CP] Embed Pods Frameworks */,
+				A1653DFF8E48C04FEBE7D3DF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hug和Compress";
+			productName = "Hug和Compress";
+			productReference = 184E2FF41DB895BC008C1837 /* Hug和Compress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		184E300C1DB895BC008C1837 /* Hug和CompressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184E30241DB895BC008C1837 /* Build configuration list for PBXNativeTarget "Hug和CompressTests" */;
+			buildPhases = (
+				184E30091DB895BC008C1837 /* Sources */,
+				184E300A1DB895BC008C1837 /* Frameworks */,
+				184E300B1DB895BC008C1837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184E300F1DB895BC008C1837 /* PBXTargetDependency */,
+			);
+			name = "Hug和CompressTests";
+			productName = "Hug和CompressTests";
+			productReference = 184E300D1DB895BC008C1837 /* Hug和CompressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		184E30171DB895BC008C1837 /* Hug和CompressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184E30271DB895BC008C1837 /* Build configuration list for PBXNativeTarget "Hug和CompressUITests" */;
+			buildPhases = (
+				184E30141DB895BC008C1837 /* Sources */,
+				184E30151DB895BC008C1837 /* Frameworks */,
+				184E30161DB895BC008C1837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184E301A1DB895BC008C1837 /* PBXTargetDependency */,
+			);
+			name = "Hug和CompressUITests";
+			productName = "Hug和CompressUITests";
+			productReference = 184E30181DB895BC008C1837 /* Hug和CompressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184E2FEC1DB895BB008C1837 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "李重阳";
+				TargetAttributes = {
+					184E2FF31DB895BC008C1837 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					184E300C1DB895BC008C1837 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 184E2FF31DB895BC008C1837;
+					};
+					184E30171DB895BC008C1837 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 184E2FF31DB895BC008C1837;
+					};
+				};
+			};
+			buildConfigurationList = 184E2FEF1DB895BB008C1837 /* Build configuration list for PBXProject "Hug和Compress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184E2FEB1DB895BB008C1837;
+			productRefGroup = 184E2FF51DB895BC008C1837 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184E2FF31DB895BC008C1837 /* Hug和Compress */,
+				184E300C1DB895BC008C1837 /* Hug和CompressTests */,
+				184E30171DB895BC008C1837 /* Hug和CompressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184E2FF21DB895BC008C1837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184E30071DB895BC008C1837 /* LaunchScreen.storyboard in Resources */,
+				184E30041DB895BC008C1837 /* Assets.xcassets in Resources */,
+				184E30021DB895BC008C1837 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184E300B1DB895BC008C1837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184E30161DB895BC008C1837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FB00221847DA874416435AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7F7BB54D2A4E902F60A2C8A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hug和Compress/Pods-Hug和Compress-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1653DFF8E48C04FEBE7D3DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hug和Compress/Pods-Hug和Compress-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184E2FF01DB895BC008C1837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184E2FFF1DB895BC008C1837 /* ViewController.m in Sources */,
+				184E2FFC1DB895BC008C1837 /* AppDelegate.m in Sources */,
+				184E2FF91DB895BC008C1837 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184E30091DB895BC008C1837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184E30121DB895BC008C1837 /* Hug_CompressTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184E30141DB895BC008C1837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184E301D1DB895BC008C1837 /* Hug_CompressUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		184E300F1DB895BC008C1837 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184E2FF31DB895BC008C1837 /* Hug和Compress */;
+			targetProxy = 184E300E1DB895BC008C1837 /* PBXContainerItemProxy */;
+		};
+		184E301A1DB895BC008C1837 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184E2FF31DB895BC008C1837 /* Hug和Compress */;
+			targetProxy = 184E30191DB895BC008C1837 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		184E30001DB895BC008C1837 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184E30011DB895BC008C1837 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		184E30051DB895BC008C1837 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184E30061DB895BC008C1837 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		184E301F1DB895BC008C1837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		184E30201DB895BC008C1837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		184E30221DB895BC008C1837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4998606FC417E3D967050FD4 /* Pods-Hug和Compress.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hug和Compress/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hztbc.Hug-Compress";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		184E30231DB895BC008C1837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE2D714827B34C82357257E4 /* Pods-Hug和Compress.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hug和Compress/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hztbc.Hug-Compress";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		184E30251DB895BC008C1837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hug和CompressTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hztbc.Hug-CompressTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hug和Compress.app/Hug和Compress";
+			};
+			name = Debug;
+		};
+		184E30261DB895BC008C1837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hug和CompressTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hztbc.Hug-CompressTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hug和Compress.app/Hug和Compress";
+			};
+			name = Release;
+		};
+		184E30281DB895BC008C1837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Hug和CompressUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hztbc.Hug-CompressUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Hug和Compress";
+			};
+			name = Debug;
+		};
+		184E30291DB895BC008C1837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Hug和CompressUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hztbc.Hug-CompressUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Hug和Compress";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184E2FEF1DB895BB008C1837 /* Build configuration list for PBXProject "Hug和Compress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184E301F1DB895BC008C1837 /* Debug */,
+				184E30201DB895BC008C1837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184E30211DB895BC008C1837 /* Build configuration list for PBXNativeTarget "Hug和Compress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184E30221DB895BC008C1837 /* Debug */,
+				184E30231DB895BC008C1837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184E30241DB895BC008C1837 /* Build configuration list for PBXNativeTarget "Hug和CompressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184E30251DB895BC008C1837 /* Debug */,
+				184E30261DB895BC008C1837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184E30271DB895BC008C1837 /* Build configuration list for PBXNativeTarget "Hug和CompressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184E30281DB895BC008C1837 /* Debug */,
+				184E30291DB895BC008C1837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 184E2FEC1DB895BB008C1837 /* Project object */;
+}
